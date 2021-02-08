@@ -1,0 +1,259 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, caption, tbody, tfoot, thead,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*--------------------------Main code-------*/
+.wrapper{
+    height:660px;
+    width:1350px;
+
+}
+header{
+    height:130px;
+    width:1364px;
+    background-color: black;
+}
+section{
+    height:450px;
+    width:1364px;
+    background-color: grey;
+}
+footer{
+    height:82px;
+    width:1364px;
+    background-color: black;
+}
+.logo{
+    float:left;
+    padding-left: 20px;
+    
+}
+.logo img{
+    height:110px;
+    width:150px;
+    padding-left: 80px;
+}
+li a{
+ color: white;
+ text-decoration: none;
+}
+/*
+nav{
+    float: right;
+    word-spacing: 30px;
+    padding:20px;
+}
+nav li{
+    display: inline-block;
+    line-height: 70px;
+}*/
+section .sec_image{
+    height: 550px;
+    background-image:url("pictures/15.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 1350px 450px;
+}
+.box{
+    height: 300px;
+    width: 450px;
+    background-color: #332012;
+    margin: 60px auto;
+    opacity: .6;
+    color: white;
+}
+/*------------------------------------------------------------------student_login------------------------------------*/
+.log_img{
+ height: 650px;
+    background-image:url("pictures/8.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 1350px 650px;
+
+}
+.box1{
+    height:450px;
+    width: 450px;
+    background-color: black;
+    margin: 70px auto;
+    opacity: .7;
+    color: white;
+    padding: 20px;
+}
+form .login{
+    margin: auto 50px;
+}
+input{
+    height:20px;
+    width:300px;
+}
+.log_img1{
+ height: 650px;
+    background-image:url("pictures/17.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 1350px 650px;
+}
+/*-----------------------------------------------------------------------registration--------------------------------------------*/
+
+.reg_img{
+ height: 790px;
+    background-image:url("pictures/hh.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 1350px 850px;
+
+}
+.box2{
+    height:680px;
+    width: 550px;
+    background-color: black;
+    margin:  0px auto ;
+    opacity: .7;
+    color: white;
+    padding: 20px;
+}
+form .login1{
+    margin: auto 50px;
+}
+
+/*-----------------------------------------------------admin page-------------------------------------------------*/
+.box3{
+     height:600px;
+    width:650px;
+    background-color: black;
+    margin:  0px auto ;
+    opacity: .9;
+    color: white;
+    padding: 20px;
+}
+
+.log_img3{
+ height: 690px;
+    background-image:repeating-radial-gradient(pink,orange 10%,yellow 15%);
+    background-size: 1350px 650px;
+}
+.box4{
+     height:650px;
+    width:850px;
+    background-color: black;
+    margin:  0px auto ;
+    opacity: .9;
+    color: white;
+    padding: 20px;
+}
+
+
+#im{
+    height: 750px;
+    background-image:url("pictures/19.jpg"); 
+    background-size: 1350px 650px;
+}
+
+.h1{
+    margin:10px 20px 30px 500px;
+    }
+input[type='radio'] {
+        border: 1px solid #e2e2e2;
+        background: #fff;
+        color: #333;
+        font-size: 1.2em;
+        margin: 5px 0 6px 0;
+        padding: 5px;
+        width: 14px;
+    }
+    #abc{
+        font-size: 1px;
+    }
